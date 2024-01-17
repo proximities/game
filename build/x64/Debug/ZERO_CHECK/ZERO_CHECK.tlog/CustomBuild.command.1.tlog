@@ -1,0 +1,10 @@
+^C:\USERS\BILLGAN2\CODE\GAME\BUILD\CMAKEFILES\9FA7106A5F58E075500D342A74167492\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/billgan2/code/game -BC:/Users/billgan2/code/game/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/billgan2/code/game/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

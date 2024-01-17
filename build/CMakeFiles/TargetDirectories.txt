@@ -1,0 +1,4 @@
+C:/Users/billgan2/code/game/build/CMakeFiles/game.dir
+C:/Users/billgan2/code/game/build/CMakeFiles/PACKAGE.dir
+C:/Users/billgan2/code/game/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/billgan2/code/game/build/CMakeFiles/ZERO_CHECK.dir
